@@ -31,4 +31,4 @@ jobs:
         run: pipenv sync --dev
       
       - name: Deploy
-        run: pipenv gh-deploy
+        run: pipenv run build
