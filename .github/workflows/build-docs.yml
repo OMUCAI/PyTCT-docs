@@ -30,4 +30,8 @@ jobs:
         if: steps.pipenv-cache.outputs.cache-hit != 'true'
         run: pipenv sync --dev
       
-      - run: mkdocs gh-deploy --force
+      - name: Activate Environment
+        run: pipenv shell
+
+      - name: Deploy
+        run: mkdocs gh-deploy --force
