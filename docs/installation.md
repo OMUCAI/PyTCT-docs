@@ -5,7 +5,7 @@ This part of the documentation covers the installation of PyTCT.
 ## Download and Install PyTCT
 PyTCT is published as a Python package and can be installed with pip. However, it is not distributed by Pypi, so please download the installation file from the link below.
 
-[Get Installation File](#){ .md-button }
+[Get Installation File](https://github.com/OMUCAI/PyTCT-docs/releases/latest){ .md-button }
 
 Next, Open up a terminal and install PyTCT with:
 
