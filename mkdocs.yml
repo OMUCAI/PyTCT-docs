@@ -42,5 +42,6 @@ nav:
     - Run Basic Sample: basic_sample.md
   - Reference: 
     - create: reference/create.md
+    - display_automaton: reference/display_automaton.md
     - AutomatonDisplay: reference/automaton_display.md
 
