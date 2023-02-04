@@ -21,5 +21,5 @@ Please install graphviz from
 
 - [Official Installer(Windows)](https://graphviz.org/download/#windows) 
 - [Homebrew(Mac)](https://graphviz.org/download/#mac)
-- [apt(ubuntu)](https://graphviz.org/download/)
+- [Linux](https://graphviz.org/download/)
 

@@ -51,7 +51,8 @@ Once the model has been created, the automaton of DES can be visualized as an im
 Here is example.
 
 ```python
-model = pytct.AutomatonDisplay("model")
+# Get AutomatonDisplay instance
+model = pytct.display_automaton("model")
 model.render()
 ```
 
