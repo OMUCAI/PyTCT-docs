@@ -44,4 +44,5 @@ nav:
     - create: reference/create.md
     - display_automaton: reference/display_automaton.md
     - AutomatonDisplay: reference/automaton_display.md
+    - trim: reference/trim.md
 
