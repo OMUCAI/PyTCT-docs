@@ -1,12 +1,12 @@
-# allevent(DES2, DES1)
+# allevent(ALL, DES1)
 
-creates one-state DES selfloop(DES2) with all the events of DES1
+creates one-state DES selfloop with all the events of DES1
 
 ### Parameters
-| Name           | Type    | Description                                    |  Default   |
-|----------------|---------|------------------------------------------------|------------|
-| `DES2_name`    | string  | DES selfloop with all the event of DES1        | *required* |
-| `DES1_name`    | string  | DES1 name                                      | *required* |
+| Name       | Type    | Description                                              |  Default   |
+|------------|---------|----------------------------------------------------------|------------|
+| `ALL`      | string  | name of one-state DES selfloop with all the event of DES1| *required* |
+| `DES1`     | string  | name of DES1                                             | *required* |
 
 
 ## Example

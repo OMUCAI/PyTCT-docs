@@ -41,10 +41,12 @@ nav:
     - Installation: installation.md
     - Run Basic Sample: basic_sample.md
   - Reference: 
+    - allevents: reference/allevents.md
+    - AutomatonDisplay: reference/automaton_display.md
     - create: reference/create.md
     - display_automaton: reference/display_automaton.md
-    - AutomatonDisplay: reference/automaton_display.md
+    - meet: reference/meet.md
     - trim: reference/trim.md
-    - allevents: reference/allevents.md
+    
 
 
