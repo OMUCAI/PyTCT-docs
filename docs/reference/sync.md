@@ -1,4 +1,4 @@
-# sync(DES,DES1,DES2,...,DESk);
+# sync(DES,DES1,DES2,...,DESk)
 
 creates a (reachable) synchronous product of DES1,DES2,...,DESk. 
 
