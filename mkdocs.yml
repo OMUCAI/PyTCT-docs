@@ -46,6 +46,7 @@ nav:
     - create: reference/create.md
     - display_automaton: reference/display_automaton.md
     - meet: reference/meet.md
+    - sync: reference/sync.md
     - trim: reference/trim.md
     
 
