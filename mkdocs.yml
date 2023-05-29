@@ -44,9 +44,11 @@ nav:
     - allevents: reference/allevents.md
     - AutomatonDisplay: reference/automaton_display.md
     - complement: reference/complement.md
+    - condat: reference/condat.md
     - create: reference/create.md
     - display_automaton: reference/display_automaton.md
     - meet: reference/meet.md
+    - printdat: reference/printdat.md
     - sync: reference/sync.md
     - trim: reference/trim.md
     
