@@ -43,6 +43,7 @@ nav:
   - Reference: 
     - allevents: reference/allevents.md
     - AutomatonDisplay: reference/automaton_display.md
+    - complement: reference/complement.md
     - create: reference/create.md
     - display_automaton: reference/display_automaton.md
     - meet: reference/meet.md
