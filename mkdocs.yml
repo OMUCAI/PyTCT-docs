@@ -42,7 +42,7 @@ nav:
     - Run Basic Sample: basic_sample.md
   - Reference: 
     - allevents: reference/allevents.md
-    - AutomatonDisplay: reference/automaton_display.md
+    #- AutomatonDisplay: reference/automaton_display.md
     - complement: reference/complement.md
     - condat: reference/condat.md
     - create: reference/create.md
