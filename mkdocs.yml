@@ -51,6 +51,7 @@ nav:
     - printdat: reference/printdat.md
     - sync: reference/sync.md
     - trim: reference/trim.md
+    - mutex: reference/mutex.md
     
 
 
