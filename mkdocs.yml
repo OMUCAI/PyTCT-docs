@@ -50,6 +50,7 @@ nav:
     - meet: reference/meet.md
     - mutex: reference/mutex.md
     - printdat: reference/printdat.md
+    - statenum: reference/statenum.md
     - sync: reference/sync.md
     - transnum: reference/transnum.md
     - trim: reference/trim.md
