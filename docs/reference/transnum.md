@@ -1,6 +1,6 @@
 # transnum(name)
 
-returns the number of transitions of DES
+returns the number of DES transitions
 
 ### Parameters
 | Name       | Type    | Description |  Default   |
