@@ -52,6 +52,7 @@ nav:
     - printdat: reference/printdat.md
     - statenum: reference/statenum.md
     - sync: reference/sync.md
+    - trans: reference/trans.md
     - transnum: reference/transnum.md
     - trim: reference/trim.md
     
