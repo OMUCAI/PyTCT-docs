@@ -1,14 +1,14 @@
-# create(name, size, trans, marker)
+# create(G, statenum, trans, marker)
 
-creates an automaton model of DES (a .DES file)
+creates an automaton model (.DES file)
 
 ### Parameters
-| Name     | Type      | Description           | Default  |
-|----------|-----------|-----------------------|----------|
-| `name`   | string    | DES model name        | *required* |
-| `size`   | int       | number of state       | *required* |
-| `trans`  | TransList | transition tuple.<br>For more information, please see [TransList Type](#translist-type).| *required* |
-| `marker` | list      | marker state list     | *required* |
+| Name         | Type      | Description               | Default    |
+|--------------|-----------|---------------------------|------------|
+| `G`          | string    | name of output automaton  | *required* |
+| `statenum`   | int       | number of states          | *required* |
+| `trans`      | TransList | list of transition tuples.<br>For more information, please see [TransList Type](#translist-type).| *required* |
+| `marker`     | list      | list of marker states     | *required* |
 
 
 ### TransList Type
