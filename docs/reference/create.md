@@ -13,14 +13,14 @@ creates an automaton model (.DES file)
 
 ### TransList Type
 
-There are several ways to write a Transition Tuple.
+There are several options for writing transition tuples.
 
-1. Number only (Classic TCT)
+1. Number-type event (Traditional TCT)
 
     `(exit state: int, event: int, enter_state: int)`
 
     !!! note
-        Odd number event is controllable and even number event is uncontrollable.
+        By default odd-number event is controllable and even-number event is uncontrollable.
 
     ```python
     trans: TransList = [
@@ -30,12 +30,12 @@ There are several ways to write a Transition Tuple.
     ]
     ```
 
-2. String Event (PyTCT Original)
+2. String-type event (PyTCT Original)
 
     `(exit state: int, event: string, enter_state: int, 'u'[uncontrollable] or 'c'[controllable])`
 
     !!! note
-        String events and int events cannot be mixed.
+        String-type events and number-type events cannot be mixed.
 
     ```python
     trans: TransList = [
@@ -45,12 +45,12 @@ There are several ways to write a Transition Tuple.
     ]
     ```
 
-3. String State (PyTCT Original)
+3. String-type event and string-type state (PyTCT Original)
     
     `(exit state: string, event: string, enter_state: string, 'u'[uncontrollable] or 'c'[controllable])`
 
     !!! note
-        it will not be able to be displayed on AutomatonDisplay after processing such as sync.
+        String-type states cannot be displayed on AutomatonDisplay after being processed by other functions such as sync.
     
     ```python
     trans: TransList = [
@@ -71,7 +71,7 @@ delta = [
     (0, 15, 3)
 ]
 Qm = [0, 1]
-pytct.create("model", 4, delta, Qm)
+pytct.create('G', 4, delta, Qm)
 ```
 
 ```python title="sample 2"
@@ -83,7 +83,7 @@ delta = [
     (0, "sold", 3, "c")
 ]
 Qm = [0,1]
-pytct.create("model", 4, delta, Qm)
+pytct.create('G', 4, delta, Qm)
 ```
 
 ```python title="sample 3"
@@ -95,5 +95,5 @@ delta = [
     ("idle", "sold", "sold", "c")
 ]
 Qm = ["idle", "running"]
-pytct.create("model", 4, delta, Qm)
+pytct.create('G', 4, delta, Qm)
 ```
