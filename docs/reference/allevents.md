@@ -1,12 +1,12 @@
-# allevent(ALL, DES1)
+# allevent(ALL, G)
 
-creates one-state DES selfloop with all the events of DES1
+creates a one-state automaton ALL selflooped with all the events of G
 
 ### Parameters
-| Name       | Type    | Description                                              |  Default   |
-|------------|---------|----------------------------------------------------------|------------|
-| `ALL`      | string  | name of one-state DES selfloop with all the event of DES1| *required* |
-| `DES1`     | string  | name of DES1                                             | *required* |
+| Name       | Type    | Description             |  Default   |
+|------------|---------|-------------------------|------------|
+| `ALL`      | string  | name of output outmaton | *required* |
+| `G`        | string  | name of input automaton | *required* |
 
 
 ## Example
@@ -17,9 +17,9 @@ delta = [
     (1, 10, 0)
 ]
 Qm = [0]
-pytct.create("model", 2, delta, Qm)
+pytct.create('G', 2, delta, Qm)
 
-pytct.allevents("ALL", "model")
+pytct.allevents('ALL', 'G')
 
 ```
 
@@ -31,7 +31,7 @@ delta = [
     (2, 14, 3)
 ]
 Qm = [0, 3]
-pytct.create("model", 4, delta, Qm)
+pytct.create('G', 4, delta, Qm)
 
-pytct.allevents("ALL", "model")
+pytct.allevents('ALL', 'G')
 ```
