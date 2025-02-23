@@ -3,4 +3,4 @@ The TCT software package is designed for the synthesis of supervisory controls f
 PyTCT provides Python Binding of the TCT so that TCT can be used from Python.
 
 
-Next: [Getting started](./basic_sample.md)
+Next: [Installation](./getting_started/installation.md)

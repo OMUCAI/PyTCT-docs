@@ -50,8 +50,8 @@ markdown_extensions:
 nav:
   - Introduction: index.md
   - Getting started:
-    - Installation: installation.md
-    - Run Basic Sample: basic_sample.md
+    - Installation: getting_started/installation.md
+    - Run Basic Sample: getting_started/basic_sample.md
   - Reference: 
     - allevents: reference/allevents.md
     #- AutomatonDisplay: reference/automaton_display.md
