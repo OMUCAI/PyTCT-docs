@@ -4,19 +4,22 @@ PyTCT Documents
 
 ## Install
 
-### Pipenv version
+### Install uv
+
+https://docs.astral.sh/uv/getting-started/installation/
+
 ```bash
-pipenv install
+curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
-### Manual version
+### Install dependency
 ```bash
-pip install mkdocs mkdocs-material
+uv sync
 ```
 
 ## Run Local Docs Server
 ```bash
-mkdocs serve
+uv run mkdocs serve
 ```
 
 ## MkDocs
