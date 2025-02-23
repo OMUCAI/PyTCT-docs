@@ -1,21 +1,33 @@
 site_name: PyTCT
-copyright: Copyright &copy; 2022 Control and Artificial Intelligence Group
+site_url: https://omucai.github.io/PyTCT-docs/
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/OMUCAI/PyTCT-docs
+    - icon: fontawesome/solid/flask
+      link: https://www.caikai.org/
+
 theme:
   name: material
+  custom_dir: overrides
   palette:
-      primary: blue grey
+    primary: blue grey
   features:
     # - announce.dismiss
     - content.code.annotate
+    - content.code.copy
     # - content.tabs.link
     - content.tooltips
     # - header.autohide
-    # - navigation.expand
-    # - navigation.indexes
-    # - navigation.instant
+    - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
     # - navigation.prune
-    - navigation.sections
-    - navigation.tabs
+    # - navigation.sections
+    # - navigation.tabs
     # - navigation.tabs.sticky
     # - navigation.top
     - navigation.tracking
@@ -36,7 +48,7 @@ markdown_extensions:
   - pymdownx.superfences
   
 nav:
-  - Top: index.md
+  - Introduction: index.md
   - Getting started:
     - Installation: installation.md
     - Run Basic Sample: basic_sample.md
