@@ -2,11 +2,11 @@
 
 PyTCT Documents
 
-## Install
+## Setup Instructions
 
-### GitHub Codespace (recommend)
+### GitHub Codespace (Recommended)
 
-1. **Create cpdespace**
+1. **Create Codespace**
 
     Select Create codespace from the `+` button  
     ![codespace](./img/codespace.png)
@@ -15,16 +15,27 @@ PyTCT Documents
 
 1. **Install uv**
 
-    [uv](https://docs.astral.sh/uv/getting-started/installation/) is pakage manager
+    [uv](https://docs.astral.sh/uv/getting-started/installation/) is a Python package manager
 
     ```bash
     curl -LsSf https://astral.sh/uv/install.sh | sh
     ```
 
-2. **Install dependency**
+2. **Install Dependencies**
 
     ```bash
     uv sync
+    ```
+
+## Edit Documents
+
+### Edit While Previewing Changes
+
+1. **Serve the Documentation Locally**:
+    Run the following command to start the live-reloading docs server and see your changes:
+
+    ```bash
+    uv run mkdocs serve
     ```
 
 ### Adding New Document Files
@@ -45,54 +56,9 @@ When you add a new Markdown file to the documentation, follow these steps to ens
       - New Page: new_page.md
     ```
 
-3. **Serve the Documentation Locally**:
-    - Run the following command to start the live-reloading docs server and see your changes:
+### Reflect Changes on the Production Site
 
-    ```bash
-    uv run mkdocs serve
-    ```
-
-5. **Commit and Push Changes**:
+1. **Commit and Push Changes**:
     - Commit your changes to the repository and push them to the remote repository.
 
-<!-- ## Run Local Docs Server
-
-You can see how the document appears via your local server.
-You can run it either the VSCode Tasks way or the shell way
-
-### VSCode Tasks
-1. **Open the Command Palette**:
-    - Press `Ctrl+Shift+P` to open the Command Palette.
-
-2. **Run the Task**:
-    - Type `Run Task` and select it.
-    - In the list of tasks, select `check site`.
-
-### Shell
-
-1. **Run command**:  
-    Please run the following command in a shell
-
-    ```bash
-    uv run mkdocs serve
-    ``` -->
-
-
-## MkDocs
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-Material for MkDocs documentation is [here](https://squidfunk.github.io/mkdocs-material/reference/)
-
-### Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-### Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+    After committing to the main branch, the document site is automatically built and updated using GitHub Actions.
