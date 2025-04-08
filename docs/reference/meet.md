@@ -3,11 +3,11 @@
 creates a reachable cartesian product of DES1, DES2, ..., DESk.
 
 ### Parameters
-| Name                         | Type   | Description                                                  |  Default   |
-|------------------------------|--------|--------------------------------------------------------------|------------|
-| `DES`                        | string | a reachable cartesian product of DES1, DES2, ..., DESk.      | *required* |
-| `DES1, DES2, ..., DESk`      | string | DESs used to create a reachable cartesian product.           | *required* |
 
+| Name                    | Type   | Description                                             | Default    |
+| ----------------------- | ------ | ------------------------------------------------------- | ---------- |
+| `DES`                   | string | a reachable cartesian product of DES1, DES2, ..., DESk. | _required_ |
+| `DES1, DES2, ..., DESk` | string | DESs used to create a reachable cartesian product.      | _required_ |
 
 ## Example
 
@@ -29,5 +29,4 @@ Qm = [0]
 pytct.create("DES2", 3, delta2, Qm)
 
 pytct.meet("DES", "DES1", "DES2")
-
 ```
