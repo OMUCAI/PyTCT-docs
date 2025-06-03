@@ -77,7 +77,7 @@ pytct.create('G', 4, delta, Qm)
 ```python title="sample 2"
 delta = [
     (0, 'run', 1, "c"),
-    (1, "finish", 0, "u"),
+    (1, 'finish', 0, "u"),
     (1, "broken", 2, "u"),
     (2, "repaired", 0, "c"),
     (0, "sold", 3, "c")
