@@ -76,11 +76,11 @@ pytct.create('G', 4, delta, Qm)
 
 ```python title="sample 2"
 delta = [
-    (0, 'run', 1, "c"),
-    (1, 'finish', 0, "u"),
-    (1, 'broken', 2, "u"),
-    (2, 'repaired', 0, "c"),
-    (0, 'sold', 3, "c")
+    (0, 'run', 1, 'c'),
+    (1, 'finish', 0, 'u'),
+    (1, 'broken', 2, 'u'),
+    (2, 'repaired', 0, 'c'),
+    (0, 'sold', 3, 'c')
 ]
 Qm = [0,1]
 pytct.create('G', 4, delta, Qm)
@@ -88,12 +88,12 @@ pytct.create('G', 4, delta, Qm)
 
 ```python title="sample 3"
 delta = [
-    ("idle", "run", "running", "c"),
-    ("running", "finish", "idle", "u"),
-    ("running", "broken", "broken", "u"),
-    ("broken", "repaired", "idle", "c"),
-    ("idle", "sold", "sold", "c")
+    ('idle', 'run', 'running', 'c'),
+    ('running', 'finish', 'idle', 'u'),
+    ('running', 'broken', 'broken', 'u'),
+    ('broken', 'repaired', 'idle', 'c'),
+    ('idle', 'sold', 'sold', 'c')
 ]
-Qm = ["idle", "running"]
+Qm = ['idle', 'running']
 pytct.create('G', 4, delta, Qm)
 ```
