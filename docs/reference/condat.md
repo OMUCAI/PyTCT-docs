@@ -14,8 +14,8 @@ returns control data DAT for the supervisor DES2, which controls DES1
 
 ```python title="sample 1"
 
-pytct.supcon("SUP", "PLANT", "SPEC")
+pytct.supcon('SUP', 'PLAN', 'SPEC')
 
-pytct.condat("SUPDATA", "PLANT", "SUP")
+pytct.condat('SUPDAT', 'PLANT', 'SUP')
 
 ```
