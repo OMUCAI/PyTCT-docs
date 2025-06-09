@@ -12,6 +12,6 @@ generate all blocking states in DES
 
 ```python title="sample 1"
 
-pytct.blocking _states('DES')
+pytct.blocking_states('DES')
 
 ```
