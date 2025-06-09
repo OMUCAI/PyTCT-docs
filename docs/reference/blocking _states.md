@@ -1,6 +1,6 @@
 # blocking _states(DES)
 
-generate all blocking states in DE
+generate all blocking states in DES
 
 ### Parameters
 | Name       | Type    | Description                                                          |  Default   |
