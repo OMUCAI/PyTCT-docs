@@ -23,6 +23,6 @@ Qm = [0]
 pytct.create('DES', 4, delta, Qm)
 
 
-pytct.blocking_states('DAT', 'DES')
+pytct.blocking_states('DES')
 
 ```
