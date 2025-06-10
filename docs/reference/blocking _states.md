@@ -13,6 +13,16 @@ generate all blocking states in DES
 
 ```python title="sample 1"
 
+delta = [
+    (0, 11, 1),
+    (1, 12, 2),
+    (2, 11, 0),
+    (2, 14, 3)
+]
+Qm = [0]
+pytct.create('DES', 4, delta, Qm)
+
+
 pytct.blocking_states('DAT', 'DES')
 
 ```
