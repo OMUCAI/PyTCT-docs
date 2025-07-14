@@ -1,6 +1,6 @@
 # conact(DES1, DES2)
 
-pytct.init('xxx') create a working folder
+Create a working folder
 
 ### Parameters
 | Name       | Type    | Description                                                          |  Default   |
