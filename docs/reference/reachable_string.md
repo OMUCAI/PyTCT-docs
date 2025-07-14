@@ -6,7 +6,7 @@ generate a string to the reachable state m
 | Name       | Type    | Description   |  Default   |
 |------------|---------|---------------|------------|
 | `G`        | string  | name of DES   | *required* |
-| `m`        | string  | state nnumber | *required* |
+| `m`        | int     | state nnumber | *required* |
 
 
 
