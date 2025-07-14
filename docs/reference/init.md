@@ -1,4 +1,4 @@
-# conact(DES1, DES2)
+# init('name')
 
 Create a working folder
 
