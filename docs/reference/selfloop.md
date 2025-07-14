@@ -1,4 +1,4 @@
-## pytct.selfloop(G_SL,G,[event1,event2,...])
+# selfloop(G_SL,G,[event1,event2,...])
 
 selfloop G with events event1,event2,......
 
