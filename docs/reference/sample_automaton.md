@@ -6,7 +6,7 @@ sample G.DES with a string of length m
 | Name       | Type    | Description      |  Default   |
 |------------|---------|------------------|------------|
 | `G`        | string  | name of DES      | *required* |
-| `m`        | string  | length of string | *required* |
+| `m`        | int     | length of string | *required* |
 
 
 
