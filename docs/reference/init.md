@@ -1,4 +1,4 @@
-# init('name')
+# init(name)
 
 Create a working folder
 
