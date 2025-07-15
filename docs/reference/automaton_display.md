@@ -42,15 +42,15 @@ render image
 
 ## Example
 
-```python title="render sample"
-model = pytct.AutomatonDisplay("model")
+```python title'render sample'
+model = pytct.AutomatonDisplay('model')
 model.render()
 ```
 An image window will appear. If you are in a Jupyter environment, it will appear below the cell.
 
 
-```python title="save sample"
-model = pytct.AutomatonDisplay("model")
+```python title'save sample'
+model = pytct.AutomatonDisplay('model')
 model.save("model")
 ```
 
